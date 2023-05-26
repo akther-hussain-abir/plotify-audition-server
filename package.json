@@ -1,0 +1,22 @@
+{
+  "name": "plotify_assignment",
+  "version": "1.0.0",
+  "description": "Audition assignment for Plotify",
+  "main": "server.ts",
+  "scripts": {
+    "start": "npx tsc && node dist/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Akther Hussain",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^3.12.0",
+    "class-validator": "^0.14.0",
+    "express": "^4.18.2",
+    "graphql": "^16.6.0",
+    "mongoose": "^7.2.1",
+    "reflect-metadata": "^0.1.13",
+    "type-graphql": "^2.0.0-beta.2",
+    "typescript": "^5.0.4"
+  }
+}
